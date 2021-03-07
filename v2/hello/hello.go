@@ -6,5 +6,5 @@ import (
 
 func Say(firstName, lastName string) {
 	fmt.Printf("Hello, %s %s\n", firstName,lastName)
-	fmt.Printf("common-go version: v2.0.0")
+	fmt.Println("common-go version: v2.0.0")
 }
